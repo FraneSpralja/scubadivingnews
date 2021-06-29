@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!--FONT UBUNTU-->
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <!--CUSTOM CSS-->
+    <link rel="stylesheet" href="/master CSS/colaboradores.css">
+    
+    <title>Contacto | Baja Pacífico</title>
+
+</head>
+<body>
+    <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+    </div>
+
+    <div class="container">
+        <nav class="nav-main">
+            <img src="IMAGENES/logo/brand.png" alt="divenews" class="nav-brand">
+            <ul class="nav-menu">
+                <li>
+                    <a href="/index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="/nosotros.html">Nosotros</a>
+                </li>
+                <li>
+                    <a href="/noticias.html">Noticias</a>
+                </li>
+                <li>
+                    <a href="/colaboradores.html">Contacto</a>
+                </li>
+            </ul>
+            <ul class="nav-menu-right">
+                <li>
+                    <a href="#">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <hr>
+        <!--CONTACTO INTRO-->
+        <header>
+            <h1>Suscríbete a nuestro newsletter</h1>
+        </header>
+        <div class="contacto">
+            <section class="newsletter-form">
+                <form action="mailto:spralja.frane@gmail.com" method="POST" class="newsletter">
+                    <div class="form-group">
+                        <label for="name" id="name">Nombre</label>
+                        <input type="text" id="name" class="box" placeholder="Nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" id="email">Email</label>
+                        <input type="text" id="email" class="box" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <button type="submite" id="submite" class="submite-btn" value="SendEmail">Enviar formulario</button>
+                    </div>
+                </form>
+            </section>
+            <hr>
+        </div>
+        <!--INTRO COLABORADORES-->
+        <div class="text-intro">
+            <h2>Sé un colaborador</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos ullam dolorem eius consequatur aliquid perferendis veritatis nisi deleniti totam sed.</p>
+        </div>
+        <!--FORMULARIO-->
+        <section class="contact-form">
+            <form id="survey" action="mailto:spralja.frane@gmail.com" method="POST">
+                <div class="form-group">
+                    <label for="name" id="name">Nombre</label>
+                    <input type="text" id="name" class="box" placeholder="Nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email" id="email">Correo</label>
+                    <input type="email" id="email" class="box" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="number" id="Age">Edad</label>
+                    <input type="number" id="age" class="box" placeholder="Edad" required>
+                </div>
+                <div>
+                    <label for="dropdown" id="como-colaborar">¿Cómo quieres colaborar?</label>
+                    <select name="menu" id="dropdown" class="box">
+                        <option class="option" value="number one">Fotografía</option>
+                        <option class="option" value="number two">Reportajes</option>
+                        <option class="option" value="number three">Edición</option>
+                        <option class="option" value="number four">Marketing</option>
+                        <option class="option" value="number five">Alianzas y contactos</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <p>Cuéntanos ¿Por qué quieres participar? ¿Cúal sería tu aporte? y comparte tus dudas</p>
+                    <textarea id="text-area" name="text-area" class="input-text-area" placeholder="No te guardes nada..."></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submite" id="submite" class="submite-btn" value="SendEmail">Enviar formulario</button>
+                </div>
+            </form>
+        </section>
+    </div>
+        <!--FOOTER-->
+    <div class="footer-nos">
+        <div class="footer-container">
+            <ul class="footer-link">
+                <li>
+                    <a href="#">
+                        Inicio
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Contacto
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        haz tu aporte
+                    </a>
+                </li>
+            </ul>
+            <ul class="footer-link">
+                <li>
+                    <a href="#">
+                        Correo
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Alianzas
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Conservemos el mar
+                    </a>
+                </li>
+            </ul>
+            <div class="footer-aliados">
+                    <a href="#">
+                        <img src="/IMAGENES/aliados/3.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="/IMAGENES/aliados/4.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="/IMAGENES/aliados/5.png" alt="">
+                    </a>
+                </div>
+            <div class="follow">
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <h3>Baja Pacífico Copyright 2021</h3>
+    </footer>
+
+    <!--JS-->
+    <script src="/master JS/main.js"></script>
+</body>
+</html>
